@@ -37,7 +37,7 @@
 		@apply ml-2;
 	}
 	.scrolled {
-		@apply shadow-lg bg-sky-100 dark:bg-slate-600 max-lg:bg-transparent max-lg:shadow-none;
+		@apply shadow-lg backdrop-blur-3xl max-lg:shadow-none;
 	}
 }
 

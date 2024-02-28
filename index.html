@@ -11,9 +11,9 @@
 
 <body>
   <header class="fixed z-20 flex w-full px-16 py-8 bg-scroll max-sm:py-10 max-sm:px-8 max-lg:absolute">
-    <div><a href=""><img class="h-[29px] w-[129px]" src="./src/assets/images/header-logo.svg" alt="header-logo"></a>
-    </div>
-    <nav class="flex items-center justify-between flex-1 max-lg:justify-end [&_a]:leading-normal max-container">
+    <nav class="flex items-center justify-between flex-1 [&_a]:leading-normal max-container">
+      <div><a href=""><img class="h-[29px] w-[129px]" src="./src/assets/images/header-logo.svg" alt="header-logo"></a>
+      </div>
       <ul class="flex items-center justify-center flex-1 gap-16 max-lg:hidden">
         <li><a href="" class="info-text">Home</a></li>
         <li><a href="" class="info-text">About Us</a></li>
@@ -329,6 +329,9 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
+    const a = document.getElementById('a');
+    const b = document.getElementById('b');
+    const c = document.getElementById('c');
     window.addEventListener('scroll', function () {
       const navbar = document.querySelector('header');
       if (window.scrollY > 0) {
@@ -354,7 +357,6 @@
         if (target === navmenu) return;
         target = target.parentNode;
       } while (target)
-      console.log(target);
       navmenu.classList.remove('translate-x-[-320px]');
     });
     hamburger.addEventListener('click', () => {
