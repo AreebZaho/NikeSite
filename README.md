@@ -1,13 +1,13 @@
 # Nike Landing Page
 Building a Nike landing page using Tailwind CSS.
 
-# Project Screenshots
-[Image of Hero Section]
-[Image of Responsive Layout on Different Devices]
-[Image of any other key features]
+## View Here - [GitHub Pages](https://areebzaho.github.io/NikeSite/)
+[![Video Link](https://i.stack.imgur.com/Vp2cE.png)](https://youtu.be/FECHI5V6xZE?si=cV9Yzh4uGihUiqM2)  
 
 # ⚙️ Tech Stack
-Tailwind CSS
+HTML  
+Tailwind CSS  
+JavaScript
 
 # 🔋 Features
 **Visually Appealing Desig**n: Captivating hero section, product showcases, and overall attention to design details.  
