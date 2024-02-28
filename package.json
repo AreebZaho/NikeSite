@@ -1,0 +1,23 @@
+{
+	"name": "nikesite",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AreebZaho/NikeSite.git"
+	},
+	"author": "Areeb Zahoori",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/AreebZaho/NikeSite/issues"
+	},
+	"homepage": "https://github.com/AreebZaho/NikeSite#readme",
+	"devDependencies": {
+		"tailwindcss": "^3.4.1"
+	}
+}

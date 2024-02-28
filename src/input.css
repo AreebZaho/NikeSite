@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	@apply transition-colors duration-300;
+}
+
+@layer base {
+	h1 {
+		@apply font-bold text-8xl font-palanquin dark:text-white;
+	}
+	h2 {
+		@apply text-4xl font-bold font-palanquin dark:text-white;
+	}
+	h2 > span {
+		@apply text-4xl text-coral-red font-palanquin;
+	}
+	h3 {
+		@apply text-3xl font-bold leading-normal font-palanquin dark:text-white;
+	}
+	h4 {
+		@apply text-2xl font-semibold leading-normal font-montserrat dark:text-white;
+	}
+	button {
+		@apply px-7 py-4 flex justify-center items-center gap-2 bg-coral-red h-[53.6px] text-white text-nowrap rounded-full border-coral-red font-montserrat text-lg 
+					 duration-200 hover:-translate-y-1 hover:shadow-lg hover:bg-orange-600 dark:bg-slate-400 dark:text-white dark:hover:bg-slate-600;
+	}
+	button > img {
+		@apply ml-2;
+	}
+	.scrolled {
+		@apply shadow-lg bg-sky-100 dark:bg-slate-600 max-lg:bg-transparent max-lg:shadow-none;
+	}
+}
+
+@layer components {
+	.max-container {
+		max-width: 1440px;
+		margin: 0 auto;
+	}
+	.shoe-collection-selectable {
+		@apply flex items-center justify-center cursor-pointer max-h-[168px] rounded-xl aspect-square drop-shadow-2xl border-4;
+	}
+	.shoe-collection-selectable > div {
+		@apply flex items-center justify-center p-4 bg-center bg-cover rounded-xl aspect-square;
+	}
+	.shoe-card {
+		@apply flex flex-col p-2 duration-200 shadow-3xl rounded-2xl hover:-translate-y-1 hover:shadow-2xl max-sm:max-w-72 dark:bg-slate-600;
+	}
+	.service-card {
+		@apply rounded-[20px] shadow-3xl px-10 py-16 min-w-[350px] flex-1 dark:bg-slate-600;
+	}
+	.service-card-round-orange-card-icon {
+		@apply flex items-center justify-center rounded-full h-11 bg-coral-red aspect-square;
+	}
+}
+
+@layer utilities {
+	.section-padding {
+		@apply px-16 py-24 max-sm:px-8 max-sm:py-12;
+	}
+	.navmenu {
+		@apply text-2xl font-bold font-montserrat dark:text-white;
+	}
+	.info-text {
+		@apply text-lg leading-7 font-montserrat text-slate-gray dark:text-slate-300;
+	}
+	.star-and-rating {
+		@apply flex justify-start gap-2.5 mt-8;
+	}
+	.shoe-card-title {
+		@apply mt-3 text-2xl font-semibold;
+	}
+	.rating-text {
+		@apply text-xl leading-normal font-montserrat text-slate-gray dark:text-slate-300;
+	}
+	.prices {
+		@apply mt-2 text-2xl font-semibold leading-normal font-montserrat text-coral-red;
+	}
+	.footer-social-media-link {
+		@apply flex items-center justify-center h-12 bg-white rounded-full aspect-square;
+	}
+	.footer-heading {
+		@apply mb-6 text-2xl font-medium leading-normal;
+	}
+	.footer-li-link {
+		@apply mt-3 text-base leading-normal font-montserrat text-white-400 hover:bg-slate-gray;
+	}
+}
