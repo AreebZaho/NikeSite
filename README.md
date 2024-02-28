@@ -42,5 +42,9 @@ npm start
 ## Viewing in Browser
 Open http://localhost:3000 in your browser. 
 
-# 🤝 Contributing
+# ✨ Show Your Support
+## Give it a 🌟
+_If you found this project helpful or enjoyed using it, please consider giving it a star on GitHub. This helps the project gain visibility and lets others know it's worth checking out. Thank you!_
+
+## Contribute 🤝
 _If you're interested in contributing to this project, please feel free to open a pull request or report any issues._
