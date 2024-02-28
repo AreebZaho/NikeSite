@@ -30,14 +30,14 @@ Node.js
 npm  
 
 ## Cloning the Repository
-git clone https://github.com/AreebZaho/NikeSite.git
-cd NikeSite  **Assuming the project folder name is _'NikeSite'_**
+``git clone https://github.com/AreebZaho/NikeSite.git``  
+``cd NikeSite``  **Assuming the project folder name is _'NikeSite'_**
 
 ## Installation
-npm install 
+``npm install``
 
 ## Running the Project
-npm start 
+``npm start``
 
 ## Viewing in Browser
 Open http://localhost:3000 in your browser. 
