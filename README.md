@@ -10,16 +10,16 @@ Building a Nike landing page using Tailwind CSS.
 Tailwind CSS
 
 # 🔋 Features
-Visually Appealing Design: Captivating hero section, product showcases, and overall attention to design details.  
-Dark Mode Toggle: Seamlessly switch between light and dark themes for user preference.  
-Responsive Navigation: An adaptable navbar with a hamburger menu for optimal navigation across devices.  
-Popular Products Showcase: Highlights Nike's best-selling products in an engaging manner.  
-Informative "About Us" Section: Provides insights into the brand with a well-designed presentation.  
-Special Offers: Prominently displays promotions and exclusive deals.  
-Testimonials: Builds trust and credibility through user reviews.  
-Newsletter Integration: Encourages signups with a well-styled newsletter form.  
-Comprehensive Footer: Offers essential links and additional information.  
-Mobile Responsiveness: Ensures an exceptional user experience across various screen sizes.  
+**Visually Appealing Desig**n: Captivating hero section, product showcases, and overall attention to design details.  
+**Dark Mode Toggle**: Seamlessly switch between light and dark themes for user preference.  
+**Responsive Navigation**: An adaptable navbar with a hamburger menu for optimal navigation across devices.  
+**Popular Products Showcase**: Highlights Nike's best-selling products in an engaging manner.  
+**Informative "About Us" Section**: Provides insights into the brand with a well-designed presentation.  
+**Special Offers**: Prominently displays promotions and exclusive deals.  
+**Testimonials**: Builds trust and credibility through user reviews.  
+**Newsletter Integration**: Encourages signups with a well-styled newsletter form.  
+**Comprehensive Footer**: Offers essential links and additional information.  
+**Mobile Responsiveness**: Ensures an exceptional user experience across various screen sizes.  
 
 # 🤸 Quick Start
 
