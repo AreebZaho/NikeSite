@@ -1,5 +1,5 @@
 # Nike Landing Page
-Building a Nike landing page using Tailwind CSS.
+Nike landing page using Tailwind CSS.
 
 ## _View Here_ - [GitHub Pages](https://areebzaho.github.io/NikeSite/)
 ## _Watch the video:_
