@@ -1,7 +1,7 @@
 # Nike Landing Page
 Nike landing page using Tailwind CSS.
 
-## _View Here_ - [GitHub Pages](https://areebzaho.github.io/NikeSite/)
+## _View Here_ - [Deployed on Netlify]([https://areebzaho.github.io/NikeSite/](https://nike-areeb.netlify.app/))
 ## _Watch the video:_
 [![Video Link](/src/assets/images/SiteSS.png)](https://youtu.be/FECHI5V6xZE?si=cV9Yzh4uGihUiqM2)  
 
